@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Галерея</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery__icon">🐶</div>
+        <h1 class="gallery__title">Галерея для души</h1>
+        <p class="gallery__subtitle">Нажмите на кнопку ниже — и милота начнёт появляться ✨</p>
+        
+        <form id="image-form" class="gallery__form">
+          <button type="submit" class="gallery__btn">Загрузить картинки</button>
+        </form>
+      
+        <div class="gallery__loader hidden"></div>
+        <div class="gallery__grid" id="gallery-container"></div>
+      </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
